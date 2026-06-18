@@ -1,0 +1,20 @@
+export const getViteEnvPresence = () => {
+  const keys = [
+    'VITE_FIREBASE_API_KEY',
+    'VITE_FIREBASE_AUTH_DOMAIN',
+    'VITE_FIREBASE_PROJECT_ID',
+    'VITE_FIREBASE_STORAGE_BUCKET',
+    'VITE_FIREBASE_MESSAGING_SENDER_ID',
+    'VITE_FIREBASE_APP_ID',
+    'VITE_FIREBASE_MEASUREMENT_ID',
+    'VITE_API_BASE_URL',
+  ];
+
+  const presence = {};
+  for (const k of keys) {
+    const v = import.meta.env[k];
+    presence[k] = typeof v === 'string' && v.trim().length > 0;
+  }
+  return presence;
+};
+
