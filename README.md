@@ -1,3 +1,6 @@
+Deployement -https://ai-resume-analyzer-two-jet.vercel.app/login
+
+
 # AI Resume Analyzer
 
 Production-ready MERN resume analyzer with Firebase Google sign-in, JWT-backed API sessions, PDF/DOCX upload, ATS scoring, skill-gap analysis, OpenAI-powered suggestions, and a recruiter-friendly dashboard.
