@@ -1,4 +1,5 @@
 Deployement -https://ai-resume-analyzer-two-jet.vercel.app/login
+vercel and Render -https://ai-resume-analyzer-git-main-prachi-mauryas-projects.vercel.app/
 
 
 # AI Resume Analyzer
